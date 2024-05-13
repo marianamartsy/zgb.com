@@ -1,0 +1,80 @@
+.header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	height: 80vh;
+	width: 100%;
+	min-height: 800px;
+	background-image: var(--background-gradient), url('../img/pexels-scottwebb-1029611.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.header__title {
+	color: var(--pure-white-color);
+	font-size: 30px;
+	margin-top: 80px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.header__text,
+.header__sub-text {
+	color: var(--secondary-color);
+}
+.header__text {
+	color: var(--main-color);
+	letter-spacing: 1.7px;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.header__sub-text {
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+.header__btn {
+	padding: 10px 70px;
+	margin-bottom: 30px;
+	width: 280px;
+	text-decoration: none;
+	background-color: var(--main-color);
+	border: 1px solid var(--secondary-color);
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: var(--pure-white-color);
+	animation: pulse 2s ease-in-out;
+}
+
+.header__icon {
+	position: absolute;
+	bottom: 0;
+	font-size: 45px;
+	color: var(--main-color);
+	animation: scale 2s infinite ease-in-out;
+}
+
+@media (min-width: 768px) {
+	.header__icon {
+		padding: 10px;
+	}
+	.header__btn {
+		font-size: 25px;
+		letter-spacing: 2px;
+		width: 600px;
+	}
+	.header__title {
+		font-size: 55px;
+	}
+	.header__text {
+		font-size: 35px;
+	}
+	.header__sub-text {
+		font-size: 28px;
+	}
+}
