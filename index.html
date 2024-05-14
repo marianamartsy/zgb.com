@@ -22,9 +22,7 @@
 
     <nav class="nav nav-mobile">
         <button class="burger-btn" aria-label="Otwórz menu nawigacyjne">
-            <span class="burger-btn__box">
-                <span class="burger-btn__element"></span>
-            </span>
+            <i class="bi bi-menu-up"></i>
         </button>
         <div class="nav-mobile__items nav__items">
             <a href="#aboutus" class="nav-mobile__item">O nas</a>
@@ -54,7 +52,6 @@
 
     <header id="header" class="header fixed-img section">
         <!-- <a href="#offer"> <img class="header_logo" src="img/logo/logo.png" alt="Logo"></a> -->
-
         <h1 class="header__title">Zorganizowana grupa budowlana</h1>
         <p class="header__text">Firma budowlana inna niż wszystkie </p>
         <p class="header__sub-text">Przedkładamy jakość na ilość</p>
@@ -68,7 +65,7 @@
 
 
     <main class="main">
-        <section id="aboutus" class="aboutus section-padding section white-section">
+        <section id="aboutus" class="aboutus section-padding section">
             <div class="container">
                 <h2 class="section-heading">O nas</h2>
                 <div class="aboutus__box">
@@ -94,9 +91,12 @@
 
 
         <section class="hero-img fixed-img section">
+            <img class="thumbnail hero-img__mobile" src="/img/building-1080599_1280.webp" alt="">
         </section>
 
-        <section class="offer section-padding section white-section" id="offer">
+
+
+        <section class="offer section-padding section" id="offer">
             <div class="container">
                 <h2 class="section-heading">oferujemy</h2>
                 <div class="offers__box">
@@ -131,7 +131,7 @@
 
 
 
-        <section class="gallery section-padding section white-section" id="gallery">
+        <section class="gallery section-padding section" id="gallery">
             <div class="gallery__container">
                 <div class="gallery__boxes">
                     <div class="gallery__box">
@@ -149,7 +149,7 @@
                     <div class="gallery__box">
                         <img src="img/pexels-skitterphoto-38070.jpg" alt="zdjęcie z budowy">
                     </div>
-        
+
                 </div>
             </div>
         </section>
@@ -243,9 +243,13 @@
         </div>
     </main>
 
+    <script src="
+    https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js
+    "></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/paralax.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/attachment-position-safari.js"></script>
     <script src="js/gallery.js"></script>

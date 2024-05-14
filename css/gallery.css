@@ -3,10 +3,10 @@
 		padding: 15px 0;
 	}
 }
-.gallery{
+.gallery {
 	background-color: var(--secondary-color);
 }
-.gallery__container{
+.gallery__container {
 	padding: 15px;
 }
 .gallery.section-padding {
@@ -16,7 +16,6 @@
 	position: relative;
 	margin: 20px;
 	padding: 15px;
-	border-radius: 8px;
 	box-shadow: 3px 3px 10px var(--light-color);
 	transition: transorm 0.3s;
 }
