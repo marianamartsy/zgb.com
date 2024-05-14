@@ -3,6 +3,9 @@
 	overflow: hidden;
 	width: 100%;
 }
+.hero-img__mobile{
+	max-height: 100vh;
+}
 
 @media (min-width: 992px) {
 	.hero-img__mobile {
