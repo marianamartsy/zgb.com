@@ -14,7 +14,7 @@ window.addEventListener('scroll', function () {
 	const scrollPosition = window.scrollY
 	if (window.innerWidth <= 992) {
 		if (heroBounding.top < window.innerHeight && heroBounding.bottom >= 0) {
-			const parallaxValue = scrollPosition * 0.01
+			const parallaxValue = scrollPosition * 0.4
 			heroSection.style.backgroundPositionY = `calc(80% + ${parallaxValue}px)`
 		}
 	} else {
