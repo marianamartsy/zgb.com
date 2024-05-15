@@ -24,7 +24,7 @@
 	display: block;
 	margin: 8px 0;
 	padding: 8px 26px;
-	font-size: 27px;
+	font-size: 25px;
 	text-decoration: none;
 }
 
@@ -91,6 +91,7 @@
 		display: block;
 		padding: 12px;
 		text-decoration: none;
+		white-space: nowrap;
 	}
 	.nav-desktop__item-active {
 		color: var(--secondary-color);
