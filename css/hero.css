@@ -18,6 +18,7 @@
 	.hero-img {
 		padding: 200px 50px;
 		background-image: var(--background-gradient), url('../img/building-1080599_1280.webp');
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}

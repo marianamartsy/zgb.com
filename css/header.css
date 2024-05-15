@@ -9,6 +9,7 @@
 	height: 80vh;
 	width: 100%;
 	min-height: 800px;
+	overflow: hidden;
 }
 .header-img__mobile{
     position: absolute;
@@ -26,12 +27,12 @@
 	margin-top: 80px;
 	text-transform: uppercase;
 	padding: 25px 10px;
+	font-weight: 500;
 }
 
 .header__text,
 .header__sub-text {
 	color: var(--pure-white-color);
-	letter-spacing: 1.7px;
 	font-size: 25px;
 	padding-bottom: 10px;
 }
@@ -74,7 +75,7 @@
 		width: 600px;
 	}
 	.header__title {
-		font-size: 55px;
+		font-size: 45px;
 	}
 	.header__text {
 		font-size: 35px;
@@ -93,5 +94,8 @@
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
+	}
+	.header__title {
+		font-size: 55px;
 	}
 }
