@@ -28,20 +28,19 @@
 	text-decoration: none;
 	transition: color 0.3s;
 }
-.footer__box-link:hover {
-	color: var(--secondary-color);
-}
+
 .footer__bottom-text {
 	text-decoration: none;
 	color: inherit;
-	padding: 14px;
+	padding: 7px;
 	display: inline-block;
 }
 .footer__box p {
 	text-decoration: none;
 	color: inherit;
 }
-.footer__box-list {
+.footer__box-list,
+.footer__bottom-box {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -50,11 +49,8 @@
 	margin-top: 15px;
 }
 .footer__bottom-box {
-	display: flex;
-	flex-direction: column;
 	background-color: var(--secondary-color);
 	font-size: 16px;
-	padding: 10px;
 }
 .footer__box-list-item,
 .footer__box-list-item a,

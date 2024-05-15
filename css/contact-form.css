@@ -36,7 +36,10 @@
 	background-color: var(--main-color);
 	cursor: pointer;
 }
-
+.contact__form-btn:hover {
+	background-color: var(--dark-color);
+	transform: scale(1.1);
+}
 .contact__form-checkbox {
 	font-size: 14px;
 	padding: 10px;

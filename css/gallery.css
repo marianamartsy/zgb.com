@@ -16,7 +16,7 @@
 	position: relative;
 	margin: 20px;
 	padding: 15px;
-	box-shadow: 3px 3px 10px var(--light-color);
+	box-shadow: 3px 3px 10px var(--secondary-color);
 	transition: transorm 0.3s;
 }
 .gallery__box img {
