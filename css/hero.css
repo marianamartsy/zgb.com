@@ -1,16 +1,20 @@
 .hero-img {
 	position: relative;
-	overflow: hidden;
+	height: 60vh;
 	width: 100%;
+	overflow: hidden;
 }
 
 .hero-img__mobile {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-	height: auto;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1000;
 }
-.animate-pulse {
-	animation: pulse 1s ease-in-out;
-}
+
 @media (min-width: 992px) {
 	.hero-img__mobile {
 		display: none;
