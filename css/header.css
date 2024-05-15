@@ -90,7 +90,7 @@
 		display: none;
 	}
 	.header {
-		background-image: var(--background-gradient), url('../img/header-bricks.webp');
+		background-image: var(--background-gradient), url('../img/wall-1114472_1280.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
