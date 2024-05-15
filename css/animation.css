@@ -32,7 +32,7 @@
 
 @keyframes appear {
 	from {
-		transform: translateY(0%) rotate(-30deg);
+		transform: translateY(90%) rotate(-30deg);
 		opacity: 0;
 	}
 	to {
