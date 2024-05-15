@@ -68,9 +68,7 @@ body {
 	}
 }
 @media (min-width: 992px) {
-	.section-heading {
-		font-size: 60px;
-	}
+
 	.section-padding {
 		padding: 25px 19px;
 	}

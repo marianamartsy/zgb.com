@@ -12,13 +12,13 @@
 	padding: 40px 15px 15px;
 }
 .footer__box {
-	font-size: 16px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	text-align: center;
 }
 .footer__box-title {
 	margin: 17px 0;
-	font-size: 18px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
 .footer__box-social {
@@ -56,7 +56,7 @@
 }
 .footer__bottom-box {
 	background-color: var(--secondary-color);
-	font-size: 16px;
+	font-size: 18px;
 }
 .footer__box-list-item,
 .footer__box-list-item a,
@@ -80,6 +80,7 @@
 	display: flex;
 	padding: 10px;
 	color: var(--pure-white-color);
+
 }
 .privacy-message {
 	position: fixed;
@@ -91,6 +92,7 @@
 	align-items: center;
 	font-size: 15px;
 	margin: 0 auto;
+	z-index: 10;
 }
 .privacy-message__button,
 .privacy-message__icon {

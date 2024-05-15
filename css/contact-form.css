@@ -21,6 +21,7 @@
 	padding: 5px 10px;
 	border: 0.1px solid var(--secondary-color);
 	font-size: 15px;
+	border-radius: 0;
 }
 .contact__form-textarea {
 	max-width: 100%;
@@ -35,6 +36,7 @@
 	border: 0.1px solid var(--secondary-color);
 	background-color: var(--main-color);
 	cursor: pointer;
+	border-radius: 0;
 }
 .contact__form-btn:hover {
 	background-color: var(--dark-color);
