@@ -11,7 +11,7 @@
 	--light-color: #bf1725;
 	--dark-color: #8c111b;
 	--pure-white-color: #ffffff;
-	--background-gradient: linear-gradient(15deg, rgba(255, 0, 0, 0.4), rgba(0, 0, 0, .9));
+	--background-gradient: linear-gradient(15deg, rgba(255, 0, 0, 0.4), rgba(0, 0, 0, .5));
 	scroll-behavior: smooth;
 	font-size: 62.5%;
 }

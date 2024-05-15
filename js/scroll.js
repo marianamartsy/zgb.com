@@ -13,13 +13,11 @@ window.addEventListener('scroll', function () {
 })
 window.addEventListener('scroll', function () {
 	const heroBounding = heroSection.getBoundingClientRect()
-	if (window.innerWidth <= 992) {
+	{
 		if (heroBounding.top < window.innerHeight && heroBounding.bottom >= 0) {
 			heroImg.classList.add('animate-pulse')
 		} else {
 			heroImg.classList.remove('animate-pulse')
 		}
-	} else {
-		heroImg.classList.remove('animate-pulse')
 	}
 })

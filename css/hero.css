@@ -2,7 +2,6 @@
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	background-image: var(--background-gradient);
 }
 
 .hero-img__mobile {
@@ -18,7 +17,7 @@
 	}
 	.hero-img {
 		padding: 200px 50px;
-		background-image: url('../img/building-1080599_1280.webp');
+		background-image: var(--background-gradient), url('../img/building-1080599_1280.webp');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
