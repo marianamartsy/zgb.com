@@ -9,25 +9,23 @@
 	height: 80vh;
 	width: 100%;
 	min-height: 800px;
-	background-image: var(--background-gradient), url('../img/pexels-armitha-nisa-30591-168818.jpg');
+	background-image: var(--background-gradient), url('../img/header-bricks.webp');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
 .header__title {
-	color: var(--pure-white-color);
+	color: var(--main-color);
 	font-size: 30px;
 	margin-top: 80px;
 	text-transform: uppercase;
 	padding: 10px;
 }
+
 .header__text,
 .header__sub-text {
-	color: var(--secondary-color);
-}
-.header__text {
-	color: var(--main-color);
+	color: var(--pure-white-color);
 	letter-spacing: 1.7px;
 	font-size: 25px;
 	padding-bottom: 10px;
@@ -49,7 +47,7 @@
 	letter-spacing: 1px;
 	font-size: 18px;
 	color: var(--pure-white-color);
-	animation: appear 2s ease-in-out;
+	animation: appear 1s ease-in-out;
 }
 
 .header__icon {
@@ -76,6 +74,6 @@
 		font-size: 35px;
 	}
 	.header__sub-text {
-		font-size: 28px;
+		font-size: 40px;
 	}
 }

@@ -14,22 +14,22 @@
 .aboutus__img {
 	position: relative;
 	border-radius: 7px;
-	animation: appear 5s ease-in-out;
 }
 .aboutus__title {
 	text-transform: uppercase;
 	text-align: center;
 	margin: 13px 0;
-	color: var(--light-color);
+	color: var(--secondary-color);
 }
 .aboutus__text {
-	color: var(--dark-color);
+	color: var(--secondary-color);
 	font-size: 16px;
 	line-height: 1.8;
 	letter-spacing: 1.5px;
 }
-
-
+.animate-appear {
+	animation: appear 1s ease-out forwards;
+}
 @media (min-width: 576px) {
 	.aboutus__box {
 		flex-direction: row;
