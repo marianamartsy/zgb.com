@@ -5,6 +5,11 @@ const menuItems = document.querySelectorAll('.nav-desktop__item')
 
 const navActiveMobile = () => {
 	nav.classList.toggle('active')
+	navItems.forEach(item => {
+		item.addEventListener('click', () => {
+			nav.classList.remove('active')
+		})
+	})
 }
 navBtn.addEventListener('click', navActiveMobile)
 
