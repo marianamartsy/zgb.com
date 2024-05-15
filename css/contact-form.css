@@ -37,6 +37,7 @@
 	background-color: var(--main-color);
 	cursor: pointer;
 	border-radius: 0;
+	transition: transform 1s, background-color 1s;
 }
 .contact__form-btn:hover {
 	background-color: var(--dark-color);
