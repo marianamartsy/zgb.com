@@ -1,12 +1,12 @@
 .contact-form {
 	overflow: hidden;
-	background-color: var(--main-color);
+	background-color: var(--secondary-color);
 }
 .contact__form,
 .contact__form-top {
 	display: flex;
 	flex-direction: column;
-	color: var(--secondary-color);
+	color: var(--main-color);
 }
 .contact-form__heading {
 	color: var(--pure-white-color);
