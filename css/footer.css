@@ -52,7 +52,7 @@
 .footer__bottom-box {
 	display: flex;
 	flex-direction: column;
-	background-color: var(--dark-color);
+	background-color: var(--main-color);
 	font-size: 16px;
 	padding: 10px;
 }

@@ -2,10 +2,11 @@
 	position: relative;
 	overflow: hidden;
 	width: 100%;
-	height: 50vh;
-	background-image: url('../img/building-1080599_1280.webp');
-	background-size: cover;
-	background-position: center;
+}
+
+.hero-img__mobile {
+	width: 100%;
+	height: auto;
 }
 
 @media (min-width: 992px) {
