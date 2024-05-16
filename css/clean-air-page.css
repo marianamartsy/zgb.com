@@ -5,6 +5,7 @@
 }
 
 .clean-air__heading {
+	text-transform: uppercase;
 	text-align: center;
 	font-size: 24px;
 	margin-top: 30px;
@@ -88,7 +89,10 @@
 		font-size: 25px;
 	}
 	.clean-air__heading {
-		font-size: 35px;
+		font-size: 45px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
 	}
 	.clean-air__description-box-item {
 		flex-direction: row;
