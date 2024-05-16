@@ -47,6 +47,6 @@
 		transition: color 1s;
 	}
 	.contacts__box-social .bi:hover {
-		color: var(--dark-color);
+		color: var(--main-color);
 	}
 }
