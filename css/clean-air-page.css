@@ -79,6 +79,11 @@
 .clean-air__actions-item:nth-child(even) {
 	color: var(--main-color);
 }
+.clean-air__bottom-img {
+	margin: auto;
+	height: 300px;
+	width: 300px;
+}
 
 @media (min-width: 992px) {
 	.clean-air__box {
@@ -111,5 +116,9 @@
 	}
 	.clean-air__quote-text {
 		padding: 0 90px 90px 90px;
+	}
+	.clean-air__bottom-img {
+		height: 400px;
+		width: 400px;
 	}
 }
