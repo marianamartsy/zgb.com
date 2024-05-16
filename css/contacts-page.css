@@ -43,4 +43,10 @@
 	.contacts__box {
 		margin-top: 200px;
 	}	
+	.contacts__box-social .bi {
+		transition: color 1s;
+	}
+	.contacts__box-social .bi:hover {
+		color: var(--dark-color);
+	}
 }

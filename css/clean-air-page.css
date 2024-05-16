@@ -3,7 +3,6 @@
 	padding-top: 70px;
 	border-radius: 8px;
 }
-
 .clean-air__heading {
 	text-transform: uppercase;
 	text-align: center;
@@ -11,6 +10,28 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	color: var(--main-color);
+}
+.clean-air__quote-box {
+	position: relative;
+	padding: 20px;
+	line-height: 1.7;
+	font-size: 20px;
+	background-color: var(--secondary-color);
+	color: var(--pure-white-color);
+}
+.clean-air__quote-text {
+	padding-bottom: 90px;
+}
+.clean-air__quote-bottom-icon {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: rotate(180deg);
+}
+
+.bi-quote {
+	color: var(--main-color);
+	font-size: 60px;
 }
 .clean-air__description-box {
 	display: flex;
@@ -45,7 +66,6 @@
 	text-align: center;
 	list-style: none;
 }
-
 .clean-air__item {
 	background-color: var(--main-color);
 	padding: 10px;
@@ -59,26 +79,7 @@
 .clean-air__actions-item:nth-child(even) {
 	color: var(--main-color);
 }
-.clean-air__quote-box {
-	position: relative;
-	margin: 20px;
-	line-height: 1.7;
-	font-size: 20px;
-}
-.clean-air__quote-text{
-	padding-bottom: 90px;
-}
-.clean-air__quote-bottom-icon {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	transform: rotate(180deg);
-}
 
-.bi-quote {
-	color: var(--main-color);
-	font-size: 60px;
-}
 @media (min-width: 992px) {
 	.clean-air__box {
 		margin-top: 200px;
@@ -86,26 +87,29 @@
 	}
 	.clean-air__description,
 	.clean-air__list {
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.clean-air__heading {
 		font-size: 45px;
 		margin-top: 50px;
 		margin-bottom: 50px;
-
 	}
 	.clean-air__description-box-item {
 		flex-direction: row;
 	}
 	.clean-air__actions-item {
-		font-size: 30px;
+		font-size: 25px;
+		font-weight: bold;
 	}
 	.clean-air__quote-box {
 		margin: 0 80px;
-		font-size: 30px;
+		font-size: 20px;
 		font-weight: 500;
 	}
 	.bi-quote {
 		font-size: 90px;
+	}
+	.clean-air__quote-text {
+		padding: 0 90px 90px 90px;
 	}
 }

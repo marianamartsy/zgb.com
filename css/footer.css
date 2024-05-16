@@ -123,4 +123,10 @@
 	.privacy-message {
 		flex-direction: row;
 	}
+	.footer__box-social .bi {
+		transition: color 1s;
+	}
+	.footer__box-social .bi:hover {
+		color: var(--dark-color);
+	}
 }
