@@ -83,8 +83,8 @@
 	max-height: 800px;
 	max-width: 600px;
 }
-/* .swiper-slide {
-
+/* .swiper-slide img {
+	max-height: 800px;
 } */
 .work-with-us__swiper {
 	overflow: hidden;

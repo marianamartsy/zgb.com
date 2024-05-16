@@ -79,7 +79,7 @@
 .clean-air__actions-item:nth-child(even) {
 	color: var(--main-color);
 }
-.clean-air__bottom-img {
+.clean-air__img {
 	margin: auto;
 	height: 300px;
 	width: 300px;
