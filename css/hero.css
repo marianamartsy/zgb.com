@@ -3,6 +3,7 @@
 	height: 60vh;
 	width: 100%;
 	overflow: hidden;
+	background-image: var(--background-gradient);
 }
 
 .hero-img__mobile {
