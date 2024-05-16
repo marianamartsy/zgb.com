@@ -88,7 +88,8 @@
 }
 
 .work-with-us__swiper {
-	padding: 30px 10px;
+	overflow: hidden;
+	padding: 20px 10px;
 }
 .swiper-button {
 	color: var(--main-color);
