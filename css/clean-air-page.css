@@ -75,14 +75,15 @@
 .clean-air__actions-item {
 	font-size: 20px;
 	padding-top: 30px;
+	font-weight: bold;
 }
 .clean-air__actions-item:nth-child(even) {
 	color: var(--main-color);
 }
 .clean-air__img {
 	margin: auto;
-	height: 300px;
-	width: 300px;
+	height: 100px;
+	width: 100px;
 }
 
 @media (min-width: 992px) {
@@ -104,7 +105,6 @@
 	}
 	.clean-air__actions-item {
 		font-size: 25px;
-		font-weight: bold;
 	}
 	.clean-air__quote-box {
 		margin: 0 80px;
@@ -120,5 +120,10 @@
 	.clean-air__bottom-img {
 		height: 400px;
 		width: 400px;
+	}
+	.clean-air__img {
+		margin: auto;
+		height: 300px;
+		width: 300px;
 	}
 }
