@@ -5,6 +5,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 
 }
 .contacts_logo {
@@ -19,7 +20,7 @@
 .contacts__box-list-item {
 	padding: 10px;
 	font-size: 20px;
-	color: var(--secondary-color);
+	color: var(--main-color);
 }
 .contacts__box-list-item a {
 	text-decoration: none;

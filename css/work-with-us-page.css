@@ -8,7 +8,7 @@
 	height: 80vh;
 	width: 100%;
 	min-height: 600px;
-	background-image: url('../img/handyman-3094035_1280.webp');
+	background-image: url('../img/work-with-us/work-with-ushandyman.webp');
 	background-size: cover;
 	background-position: center;
 }
@@ -22,12 +22,14 @@
 
 .work-with-us__box-text,
 .work-with-us__box-card {
-	letter-spacing: 2px;
 	font-size: 18px;
+	line-height: 1.8;
+	letter-spacing: 2px;
 	font-weight: 400;
 }
 .work-with-us__box-text p::first-letter {
-	font-size: 30px;
+	font-size: 20px;
+	font-weight: 700;
 	color: var(--main-color);
 }
 .work-with-us__box-text p,
@@ -83,16 +85,20 @@
 	max-height: 800px;
 	max-width: 600px;
 }
-/* .swiper-slide img {
-	max-height: 800px;
-} */
 .work-with-us__swiper {
 	overflow: hidden;
 	padding: 20px 10px;
+	background-color: var(--main-color);
+	margin: 12px 0 12px 0;
+	
 }
 .swiper-button {
 	color: var(--main-color);
 	cursor: pointer;
+}
+.work-with-us__swiper-title {
+	margin: 30px;
+	color: var(--secondary-color);
 }
 
 @media (min-width: 992px) {
@@ -106,9 +112,6 @@
 	.work-with-us__box-card {
 		font-size: 20px;
 	}
-	.work-with-us__box-text p::first-letter {
-		font-size: 50px;
-	}
 	.work-with-us__box-text-right {
 		padding-left: 100px;
 	}
@@ -117,7 +120,6 @@
 	}
 	.work-with-us__swiper-title {
 		margin: 60px;
-		color: var(--secondary-color);
 	}
 	.work-with-us__swiper {
 		display: flex;
