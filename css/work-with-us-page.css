@@ -81,16 +81,14 @@
 }
 .swiper {
 	width: 100%;
-	height: 100vh;
-	max-height: 800px;
-	max-width: 600px;
+	max-height: 600px;
+	max-width: 400px;
 }
 .work-with-us__swiper {
 	overflow: hidden;
 	padding: 20px 10px;
 	background-color: var(--main-color);
 	margin: 12px 0 12px 0;
-	
 }
 .swiper-button {
 	color: var(--main-color);
@@ -104,6 +102,8 @@
 @media (min-width: 992px) {
 	.work-with-us_hero {
 		background-position: top;
+		top: 100px;
+		min-height: 800px;
 	}
 	.work-with-us__box {
 		margin-top: 80px;
@@ -122,13 +122,11 @@
 		margin: 60px;
 	}
 	.work-with-us__swiper {
+		margin: 30px auto;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		padding: 70px 10px;
 		background-color: var(--main-color);
-		margin-top: 80px;
-		margin-bottom: 80px;
 	}
 	.work-with-us__item:nth-child(even):hover {
 		background-color: var(--dark-color);

@@ -4,7 +4,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center; 
+	text-align: center;
 	padding: 10px;
 	height: 80vh;
 	width: 100%;
@@ -29,6 +29,14 @@
 	text-transform: uppercase;
 	padding: 25px 10px;
 	font-weight: 500;
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+.header__title,
+.header__text,
+.header__sub-text,
+.header__icon {
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 }
 
 .header__text,
@@ -36,7 +44,6 @@
 	color: var(--pure-white-color);
 	font-size: 25px;
 	padding-bottom: 10px;
-	
 }
 .header__sub-text {
 	font-size: 20px;
@@ -63,7 +70,6 @@
 	bottom: 0;
 	font-size: 45px;
 	color: var(--main-color);
-	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 	animation: scale 2s infinite ease-in-out;
 }
 

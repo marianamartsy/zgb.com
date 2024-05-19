@@ -3,6 +3,8 @@
 	height: 60vh;
 	width: 100%;
 	overflow: hidden;
+	background-image: var(--background-gradient);
+	min-height: 300px;
 }
 
 .hero-img__mobile {
@@ -14,6 +16,13 @@
 	object-fit: cover;
 	z-index: -1000;
 }
+.hero__logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 700px;
+}
 
 @media (min-width: 992px) {
 	.hero-img__mobile {
@@ -21,7 +30,7 @@
 	}
 	.hero-img {
 		padding: 200px 50px;
-		background-image: url('../img/black-wall-680.webp');
+		background-image: var(--background-gradient), url('../img/black-wall-680.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
