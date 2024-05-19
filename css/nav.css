@@ -27,15 +27,12 @@
 	font-size: 25px;
 	text-decoration: none;
 }
-
 .active {
 	transform: translateX(0);
 }
-
 .nav-items-animation {
 	animation: navItemsAnimation 1s both;
 }
-
 .burger-btn {
 	position: fixed;
 	top: 20px;
@@ -78,13 +75,11 @@
 		padding: 10px;
 		height: 160px;
 	}
-
 	.nav-desktop__items {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
-
 	.nav-desktop__item {
 		color: var(--main-color);
 		font-size: 20px;
