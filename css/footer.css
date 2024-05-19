@@ -71,7 +71,7 @@
 	padding: 25px;
 }
 .footer__privacy-policy {
-	color: var(--light-color);
+	text-decoration: underline;
 }
 
 .privacy-message,
