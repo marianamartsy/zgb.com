@@ -48,7 +48,7 @@
 .offers__offer h3 {
 	color: var(--main-color);
 	margin-bottom: 8px;
-	font-size: 22px;
+	font-size: 25px;
 	text-transform: uppercase;
 }
 @media (min-width: 1200px) {

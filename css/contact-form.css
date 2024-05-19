@@ -53,6 +53,10 @@
 		align-self: flex-end;
 		max-width: 400px;
 	}
+
+}
+@media (min-width: 992px) {
+
 	.contact__form-checkbox {
 		font-size: 16px;
 	}

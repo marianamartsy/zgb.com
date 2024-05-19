@@ -74,6 +74,7 @@
 	.nav__logo {
 		padding: 10px;
 		height: 160px;
+		width: 350px;
 	}
 	.nav-desktop__items {
 		display: flex;
@@ -113,6 +114,6 @@
 }
 @media (min-width: 1400px) {
 	.nav__logo {
-		padding-right: 200px;
+		margin-right: 150px;
 	}
 }
