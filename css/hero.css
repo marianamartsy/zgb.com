@@ -30,7 +30,7 @@
 	}
 	.hero-img {
 		padding: 200px 50px;
-		background-image: var(--background-gradient), url('../img/black-wall-680.webp');
+		background-image: var(--background-gradient), url('../img/brick-wall-red.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
