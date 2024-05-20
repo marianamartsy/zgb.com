@@ -79,6 +79,30 @@
 .work-with-us__item:nth-child(odd) .bi {
 	color: var(--secondary-color);
 }
+.work-with-us__box-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--main-color);
+	padding: 10px;
+}
+.work-with-us__box-text a {
+	color: var(--main-color);
+}
+.work-with-us__box-contact-icons {
+	display: flex;
+	list-style: none;
+	padding: 20px;
+}
+.work-with-us__box-contact-icon a {
+	margin: 25px;
+	font-size: 50px;
+	color: var(--main-color);
+}
+.work-with-us__box-contact-icon {
+	animation: scale 2s infinite ease-in-out;
+}
 .swiper {
 	width: 100%;
 	max-height: 600px;
@@ -117,6 +141,9 @@
 	}
 	.work-with-us__title {
 		font-size: 30px;
+	}
+	.work-with-us__box-contact {
+		padding: 20px;
 	}
 	.work-with-us__swiper-title {
 		margin: 60px;
