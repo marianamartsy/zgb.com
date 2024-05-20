@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
 ::before,
 ::after,
 * {
@@ -11,7 +16,7 @@
 	--light-color: #bf1725;
 	--dark-color: #8c111b;
 	--pure-white-color: #ffffff;
-	--background-gradient: linear-gradient(55deg, rgba(255, 255, 255, 0.415), rgba(0, 0, 0, .37));
+	--background-gradient: linear-gradient(55deg, rgba(255, 255, 255, 0.415), rgba(0, 0, 0, 0.37));
 	scroll-behavior: smooth;
 	font-size: 62.5%;
 }
@@ -68,7 +73,6 @@ body {
 	}
 }
 @media (min-width: 992px) {
-
 	.section-padding {
 		padding: 25px 19px;
 	}
