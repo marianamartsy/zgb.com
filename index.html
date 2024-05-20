@@ -15,7 +15,7 @@
     rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<link rel="stylesheet" href="css/index.css?v=1.0">
+<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -217,6 +217,32 @@
     <script src="js/privacy-message.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/parallax.js"></script>
+    <script>
+        const version = '1.1';
+        const cssFiles = [
+            'common.css',
+            'contacts-page.css',
+            'animation.css',
+            'nav.css',
+            'header.css',
+            'about-us.css',
+            'hero.css',
+            'offer.css',
+            'gallery.css',
+            'contact-form.css',
+            'footer.css',
+            'clean-air-page.css',
+            'work-with-us-page.css',
+            'privacy-policy-page.css'
+        ];
+
+        cssFiles.forEach(file => {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = `${file}?v=${version}`;
+            document.head.appendChild(link);
+        });
+    </script>
 </body>
 
 </html>
