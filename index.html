@@ -10,7 +10,7 @@
 </head>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-<link rel="stylesheet" href="css/index.css" id="stylesheet">
+<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -213,22 +213,7 @@
     <script src="js/privacy-message.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/parallax.js"></script>
-    
-        <script>
-            function refreshCSS() {
-                var sheet = document.getElementById('stylesheet');
-                if (sheet) {
-                    var newSheet = sheet.cloneNode();
-                    var href = sheet.getAttribute('href').split('?')[0];
-                    newSheet.setAttribute('href', href + '?v=' + new Date().getTime());
-                    sheet.parentNode.replaceChild(newSheet, sheet);
-                }
-            }
-    
-   
-            refreshCSS();
-        </script>
- 
+
 </body>
 
 </html>
