@@ -25,7 +25,10 @@
 	margin: 8px 0;
 	padding: 8px 26px;
 	font-size: 25px;
+	font-weight: bold;
 	text-decoration: none;
+	text-shadow: -1px -1px 0 var(--pure-white-color), 1px -1px 0 var(--pure-white-color), -1px 1px 0 var(--pure-white-color),
+		1px 1px 0 var(--pure-white-color);
 }
 .active {
 	transform: translateX(0);
@@ -84,6 +87,7 @@
 	.nav-desktop__item {
 		color: var(--main-color);
 		font-size: 20px;
+		font-weight: bold;
 		position: relative;
 		display: block;
 		padding: 12px;

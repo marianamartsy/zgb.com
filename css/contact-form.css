@@ -10,6 +10,8 @@
 }
 .contact-form__heading {
 	color: var(--pure-white-color);
+	text-shadow: -1px -1px 0 var(--main-color), 1px -1px 0 var(--main-color), -1px 1px 0 var(--main-color),
+		1px 1px 0 var(--main-color);
 }
 .contact__form-label {
 	margin-bottom: 8px;

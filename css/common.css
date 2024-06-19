@@ -38,11 +38,13 @@ body {
 	position: relative;
 	margin: 20px 0;
 	font-size: 30px;
-	font-weight: 300;
+	font-weight: bolder;
 	text-transform: uppercase;
 	text-align: center;
 	color: var(--main-color);
 	letter-spacing: 2px;
+	text-shadow: -1px -1px 0 var(--secondary-color), 1px -1px 0 var(--secondary-color), -1px 1px 0 var(--secondary-color),
+		1px 1px 0 var(--secondary-color);
 }
 
 .section-padding {

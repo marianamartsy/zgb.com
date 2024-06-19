@@ -1,10 +1,9 @@
 .hero-img {
 	position: relative;
-	height: 60vh;
+	height: 170px;
 	width: 100%;
 	overflow: hidden;
 	background-image: var(--background-gradient);
-	min-height: 300px;
 }
 
 .hero-img__mobile {
@@ -21,7 +20,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	max-width: 700px;
+	max-width: 500px;
 }
 
 @media (min-width: 992px) {
@@ -29,7 +28,7 @@
 		display: none;
 	}
 	.hero-img {
-		padding: 200px 50px;
+		height: 200px;
 		background-image: var(--background-gradient), url('../img/black-wall-680.webp');
 		background-size: cover;
 		background-repeat: no-repeat;

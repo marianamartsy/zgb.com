@@ -121,6 +121,8 @@
 .work-with-us__swiper-title {
 	margin: 30px;
 	color: var(--secondary-color);
+	text-shadow: -1px -1px 0 var(--pure-white-color), 1px -1px 0 var(--pure-white-color), -1px 1px 0 var(--pure-white-color),
+		1px 1px 0 var(--pure-white-color);
 }
 
 @media (min-width: 992px) {
