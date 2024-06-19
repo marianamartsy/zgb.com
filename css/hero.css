@@ -1,6 +1,6 @@
 .hero-img {
 	position: relative;
-	height: 170px;
+	height: 250px;
 	width: 100%;
 	overflow: hidden;
 	background-image: var(--background-gradient);
