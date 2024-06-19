@@ -28,7 +28,6 @@
 }
 .offers__offer:hover {
 	background-color: var(--dark-color);
-	color: var(--secondary-color);
 	border: 1px solid var(--main-color);
 }
 .offers__offer::before {
