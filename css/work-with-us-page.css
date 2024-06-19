@@ -5,10 +5,10 @@
 }
 .work-with-us_hero {
 	position: relative;
-	height: 80vh;
+	height: 70vh;
 	width: 100%;
-	min-height: 600px;
-	background-image: url('../img/work-with-us/work-with-ushandyman.webp');
+	min-height: 400px;
+	background-image: url('../img/work-with-us/construction-1921518_1280.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -57,10 +57,9 @@
 	padding: 20px;
 	margin: 20px;
 	font-size: 50px;
-	width: 400px;
-	height: 200px;
+	width: 300px;
+	height: 150px;
 	border: 1px solid var(--secondary-color);
-	transition: background-color 1s;
 }
 .work-with-us__item:nth-child(odd) {
 	background-color: var(--main-color);
@@ -84,7 +83,6 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid var(--main-color);
 	padding: 10px;
 }
 .work-with-us__box-text a {
@@ -112,7 +110,6 @@
 	overflow: hidden;
 	padding: 20px 10px;
 	background-color: var(--main-color);
-	margin: 12px 0 12px 0;
 }
 .swiper-button {
 	color: var(--main-color);
@@ -121,15 +118,13 @@
 .work-with-us__swiper-title {
 	margin: 30px;
 	color: var(--secondary-color);
-	text-shadow: -1px -1px 0 var(--pure-white-color), 1px -1px 0 var(--pure-white-color), -1px 1px 0 var(--pure-white-color),
-		1px 1px 0 var(--pure-white-color);
 }
 
 @media (min-width: 992px) {
 	.work-with-us_hero {
 		background-position: top;
 		top: 100px;
-		min-height: 800px;
+		min-height: 600px;
 	}
 	.work-with-us__box {
 		margin-top: 80px;
@@ -151,18 +146,13 @@
 		margin: 60px;
 	}
 	.work-with-us__swiper {
-		margin: 30px auto;
+		margin: auto;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background-color: var(--main-color);
 	}
-	.work-with-us__item:nth-child(even):hover {
-		background-color: var(--dark-color);
-	}
-	.work-with-us__item:nth-child(odd):hover {
-		background-color: var(--pure-white-color);
-	}
+
 	.work-with-us__item {
 		opacity: 0;
 		animation: fadeIn 1s ease forwards;

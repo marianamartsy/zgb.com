@@ -29,8 +29,8 @@
 		display: none;
 	}
 	.hero-img {
-		height: 200px;
-		background-image: var(--background-gradient), url('../img/black-wall-680.webp');
+		height: 300px;
+		background-image: var(--background-gradient), url('../img/tools-15649_1280.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;

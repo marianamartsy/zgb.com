@@ -9,7 +9,8 @@
 
 }
 .contacts_logo {
-	width: 250px;
+	width: 150px;
+	height: 150px;
 }
 .contacts__box-list {
 	display: flex;
@@ -33,9 +34,7 @@
 	color: var(--secondary-color);
 }
 @media (min-width: 576px) {
-	.contacts_logo {
-		width: 400px;
-	}
+
 	.contacts__box-list-item {
 		font-size: 30px;
 	}

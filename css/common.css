@@ -43,8 +43,6 @@ body {
 	text-align: center;
 	color: var(--main-color);
 	letter-spacing: 2px;
-	text-shadow: -1px -1px 0 var(--secondary-color), 1px -1px 0 var(--secondary-color), -1px 1px 0 var(--secondary-color),
-		1px 1px 0 var(--secondary-color);
 }
 
 .section-padding {
