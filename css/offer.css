@@ -22,6 +22,7 @@
 	background-color: var(--main-color);
 	transition: background-color 0.3s, border 0.3s;
 }
+
 .offers__offer i,
 .offers__offer p {
 	padding: 20px;
