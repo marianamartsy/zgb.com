@@ -14,11 +14,12 @@ const navActiveMobile = () => {
 navBtn.addEventListener('click', navActiveMobile)
 
 document.addEventListener('DOMContentLoaded', function () {
-	const currentLocation = stripTrailingSlash(location.href)
+	const currentPath = getPathname(location.href)
+	const menuItems = document.querySelectorAll('.nav-desktop__item a')
 
 	menuItems.forEach(item => {
-		const itemHref = stripTrailingSlash(item.href)
-		if (itemHref === currentLocation) {
+		const itemPath = getPathname(item.href)
+		if (itemPath === currentPath) {
 			item.classList.add('nav-desktop__item-active')
 		}
 	})
@@ -32,10 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		})
 	})
 
-	function stripTrailingSlash(url) {
-		if (url.substr(-1) === '/') {
-			return url.substr(0, url.length - 1)
-		}
-		return url
+	function getPathname(url) {
+		const pathname = new URL(url).pathname
+		return pathname.endsWith('/') ? pathname.slice(0, -1) : pathname
 	}
 })
