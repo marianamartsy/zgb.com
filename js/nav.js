@@ -14,10 +14,10 @@ const navActiveMobile = () => {
 navBtn.addEventListener('click', navActiveMobile)
 
 document.addEventListener('DOMContentLoaded', function () {
-	const currentLocation = location.pathname
+	const currentLocation = location.href
 
 	menuItems.forEach(item => {
-		if (item.pathname === currentLocation) {
+		if (item.href === currentLocation) {
 			item.classList.add('nav-desktop__item-active')
 		}
 	})
