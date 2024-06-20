@@ -57,7 +57,6 @@
 	background-color: var(--main-color);
 	cursor: pointer;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 	font-size: 18px;
 	color: var(--pure-white-color);
 	animation: fadeIn 1s ease-in-out;
@@ -77,7 +76,6 @@
 	}
 	.header__btn {
 		font-size: 25px;
-		letter-spacing: 2px;
 		width: 600px;
 	}
 	.header__title {

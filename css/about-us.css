@@ -26,7 +26,6 @@
 	color: var(--secondary-color);
 	font-size: 18px;
 	line-height: 1.8;
-	letter-spacing: 2px;
 }
 .animate-appear {
 	animation: appear 1s ease-out forwards;
