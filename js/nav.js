@@ -14,14 +14,13 @@ const navActiveMobile = () => {
 navBtn.addEventListener('click', navActiveMobile)
 
 document.addEventListener('DOMContentLoaded', function () {
-	const currentPath = window.location.pathname;
+	const currentLocation = location.href
 
 	menuItems.forEach(item => {
-	   const itemPath = new URL(item.href).pathname;
-	   if (itemPath === currentPath) {
-		  item.classList.add('nav-desktop__item-active');
-	   }
-	});
+		if (item.href === currentLocation) {
+			item.classList.add('nav-desktop__item-active')
+		}
+	})
 
 	menuItems.forEach(function (item) {
 		item.addEventListener('click', function () {
