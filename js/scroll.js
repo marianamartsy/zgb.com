@@ -1,4 +1,4 @@
-const aboutusSection = document.getElementById('aboutus')
+const aboutusSection = document.getElementById('about-us')
 const aboutusImg = document.querySelector('.aboutus__img')
 
 window.addEventListener('scroll', function () {
