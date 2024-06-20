@@ -12,27 +12,22 @@ const navActiveMobile = () => {
 	})
 }
 navBtn.addEventListener('click', navActiveMobile)
-document.addEventListener('DOMContentLoaded', function () {
-	const currentLocation = location.href;
 
-	console.log('Current location:', currentLocation);
-	console.log('Menu items:', menuItems);
- 
+document.addEventListener('DOMContentLoaded', function () {
+	const currentLocation = location.pathname
+
 	menuItems.forEach(item => {
-	   console.log('Checking item:', item.href);
-	   if (item.href === currentLocation) {
-		  item.classList.add('nav-desktop__item-active');
-		  console.log('Added active class to:', item.href);
-	   }
-	});
- 
+		if (item.pathname === currentLocation) {
+			item.classList.add('nav-desktop__item-active')
+		}
+	})
+
 	menuItems.forEach(function (item) {
-	   item.addEventListener('click', function () {
-		  menuItems.forEach(function (item) {
-			 item.classList.remove('nav-desktop__item-active');
-		  });
-		  item.classList.add('nav-desktop__item-active');
-	   });
-	});
- });
- 
+		item.addEventListener('click', function () {
+			menuItems.forEach(function (item) {
+				item.classList.remove('nav-desktop__item-active')
+			})
+			item.classList.add('nav-desktop__item-active')
+		})
+	})
+})
