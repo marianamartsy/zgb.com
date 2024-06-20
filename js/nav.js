@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	menuItems.forEach(item => {
 		if (item.href === currentLocation) {
 			item.classList.add('nav-desktop__item-active')
+			console.log(item.href)
 		}
 	})
 
@@ -31,3 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		})
 	})
 })
+console.log(location.href)
+console.log(menuItems)
+

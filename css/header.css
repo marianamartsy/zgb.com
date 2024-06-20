@@ -30,12 +30,10 @@
 	font-weight: bolder;
 }
 
-/* .header__title,
-.header__text,
-.header__sub-text,
-.header__icon {
-	text-shadow: -1px -1px 0 var(--secondary-color), 1px -1px 0 var(--secondary-color), -1px 1px 0 var(--secondary-color),
-	1px 1px 0 var(--secondary-color);
+/* .header__title span {
+	color: transparent;
+	-webkit-text-stroke: 3px var(--main-color);
+	text-shadow: none;
 } */
 
 .header__text,
@@ -94,7 +92,7 @@
 		display: none;
 	}
 	.header {
-		background-image:  url('../img/backdrop-1280.jpg');
+		background-image: url('../img/backdrop-1280.jpg');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
