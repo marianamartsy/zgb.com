@@ -13,21 +13,25 @@ const navActiveMobile = () => {
 }
 navBtn.addEventListener('click', navActiveMobile)
 
-document.addEventListener('DOMContentLoaded', function () {
-	const currentLocation = location.href
+document.addEventListener('DOMContentLoaded', () => {
+	const activeItem = localStorage.getItem('activeMenuItem')
+
+	if (activeItem) {
+		menuItems.forEach(item => {
+			if (item.textContent.trim() === activeItem) {
+				item.classList.add('nav-desktop__item-active')
+			}
+		})
+	}
 
 	menuItems.forEach(item => {
-		if (item.href === currentLocation) {
-			item.classList.add('nav-desktop__item-active')
-		}
-	})
+		item.addEventListener('click', () => {
+			const content = item.textContent.trim()
 
-	menuItems.forEach(function (item) {
-		item.addEventListener('click', function () {
-			menuItems.forEach(function (item) {
-				item.classList.remove('nav-desktop__item-active')
-			})
+			menuItems.forEach(el => el.classList.remove('nav-desktop__item-active'))
 			item.classList.add('nav-desktop__item-active')
+
+			localStorage.setItem('activeMenuItem', content)
 		})
 	})
 })
