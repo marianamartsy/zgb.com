@@ -22,7 +22,9 @@
 	margin: 13px 0;
 	color: var(--secondary-color);
 }
-.aboutus__main-text{
+.aboutus__main-text {
+	background-color: var(--secondary-color);
+	padding: 20px;
 	font-weight: bold;
 	color: var(--main-color);
 }
