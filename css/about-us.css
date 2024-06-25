@@ -25,6 +25,7 @@
 .aboutus__main-text {
 	background-color: var(--secondary-color);
 	padding: 20px;
+	line-height: 1.6;
 	font-weight: bold;
 	color: var(--main-color);
 }
