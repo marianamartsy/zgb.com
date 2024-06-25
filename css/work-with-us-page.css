@@ -86,11 +86,15 @@
 }
 .work-with-us__box-text a {
 	color: var(--main-color);
+	font-weight: bold;
 }
 .work-with-us__box-contact-icons {
 	display: flex;
 	list-style: none;
 	padding: 20px;
+}
+.work-with-us__box-contact-icons i{
+	font-weight: bolder;
 }
 .work-with-us__box-contact-icon a {
 	margin: 25px;
