@@ -22,12 +22,6 @@
 .clean-air__quote-text {
 	padding-bottom: 90px;
 }
-.clean-air__quote-bottom-icon {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	transform: rotate(180deg);
-}
 
 .bi-quote {
 	color: var(--main-color);
@@ -115,10 +109,6 @@
 	}
 	.clean-air__quote-text {
 		padding: 0 90px 90px 90px;
-	}
-	.clean-air__bottom-img {
-		height: 400px;
-		width: 400px;
 	}
 	.clean-air__img {
 		margin: auto;
