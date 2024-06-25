@@ -86,7 +86,9 @@
 .all-offers__list li {
 	padding-bottom: 10px;
 }
-
+.all-offers__list li:nth-of-type(even)  {
+	color: var(--main-color);
+}
 @media (min-width: 500px) {
 	.offers__offer {
 		font-size: 18px;
