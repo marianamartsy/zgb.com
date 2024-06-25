@@ -33,8 +33,10 @@
 .contacts__box-social a {
 	color: var(--secondary-color);
 }
+.contacts__map-text{
+	padding: 20px;
+}
 @media (min-width: 576px) {
-
 	.contacts__box-list-item {
 		font-size: 30px;
 	}
