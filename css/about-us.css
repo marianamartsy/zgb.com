@@ -22,10 +22,15 @@
 	margin: 13px 0;
 	color: var(--secondary-color);
 }
+.aboutus__main-text{
+	font-weight: bold;
+	color: var(--main-color);
+}
 .aboutus__text {
 	color: var(--secondary-color);
 	font-size: 18px;
-	line-height: 1.8;
+	line-height: 1.6;
+	padding-bottom: 15px;
 }
 .animate-appear {
 	animation: appear 1s ease-out forwards;

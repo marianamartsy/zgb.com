@@ -30,12 +30,6 @@
 	font-weight: bolder;
 }
 
-/* .header__title span {
-	color: transparent;
-	-webkit-text-stroke: 3px var(--main-color);
-	text-shadow: none;
-} */
-
 .header__text,
 .header__sub-text {
 	color: var(--pure-white-color);
