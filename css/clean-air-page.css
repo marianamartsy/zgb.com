@@ -2,6 +2,7 @@
 	margin: 0 auto;
 	padding-top: 70px;
 	border-radius: 8px;
+	color: var(--pure-white-color);
 }
 .clean-air__heading {
 	text-transform: uppercase;
@@ -17,7 +18,7 @@
 	line-height: 1.7;
 	font-size: 20px;
 	background-color: var(--main-color);
-	color: var(--pure-white-color);
+
 }
 .clean-air__quote-text {
 	padding-bottom: 90px;
@@ -31,7 +32,6 @@
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	color: var(--pure-white-color);
 	max-width: 1000px;
 }
 .clean-air__description-box-item {
@@ -59,18 +59,15 @@
 .clean-air__description-partners {
 	max-width: 1000px;
 	margin: auto;
-	color: var(--pure-white-color);
 	background-color: var(--main-color);
 	padding: 20px;
 }
 
 .clean-air__description-finance {
-	color: var(--pure-white-color);
 	text-align: center;
 }
 .clean-air__list,
 .clean-air__actions-list {
-	color: var(--pure-white-color);
 	margin-bottom: 25px;
 	padding: 25px;
 	text-align: center;
