@@ -23,6 +23,7 @@
 	border: 0.1px solid var(--secondary-color);
 	font-size: 15px;
 	border-radius: 0;
+	background-color: var(--pure-white-color);
 }
 .contact__form-textarea {
 	max-width: 100%;

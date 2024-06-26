@@ -1,9 +1,12 @@
+.aboutus{
+	background-color: var(--secondary-color);
+}
 .aboutus__box {
 	top: 200px;
 	display: flex;
 	flex-direction: column;
 	margin: 20px 0;
-	color: var(--dark-color);
+	color: var(--main-color);
 }
 .aboutus__box-img {
 	width: 100%;
@@ -14,7 +17,6 @@
 .aboutus__img {
 	position: relative;
 	border-radius: 7px;
-	z-index: -1;
 }
 .aboutus__title {
 	text-transform: uppercase;
@@ -23,14 +25,12 @@
 	color: var(--secondary-color);
 }
 .aboutus__main-text {
-	background-color: var(--secondary-color);
-	padding: 20px;
 	line-height: 1.6;
 	font-weight: 500;
 	color: var(--main-color);
 }
 .aboutus__text {
-	color: var(--secondary-color);
+	color: var(--pure-white-color);
 	font-size: 18px;
 	line-height: 1.6;
 	padding-bottom: 15px;

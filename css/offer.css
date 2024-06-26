@@ -1,3 +1,6 @@
+.offer{
+	background-color: var(--secondary-color);
+}
 .offers {
 	overflow: hidden;
 }
@@ -49,7 +52,7 @@
 	margin-bottom: 25px;
 }
 .all-offers__item {
-	border-bottom: 1px solid var(--secondary-color);
+	border-bottom: 1px solid var(--dark-color);
 	border-radius: 4px;
 }
 
@@ -85,6 +88,7 @@
 }
 .all-offers__list li {
 	padding-bottom: 10px;
+	color: var(--pure-white-color);
 }
 .all-offers__list li:nth-of-type(even)  {
 	color: var(--main-color);

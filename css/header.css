@@ -32,9 +32,9 @@
 
 .header__text,
 .header__sub-text {
-	color: var(--pure-white-color);
 	font-size: 25px;
 	padding-bottom: 10px;
+	color: var(--pure-white-color);
 }
 .header__sub-text {
 	font-size: 20px;

@@ -1,3 +1,6 @@
+.contacts{
+	background-color: var(--secondary-color);
+}
 .contacts__box {
 	margin-top: 80px;
 	padding: 10px;
@@ -25,15 +28,16 @@
 }
 .contacts__box-list-item a {
 	text-decoration: none;
-	color: var(--secondary-color);
+	color: var(--main-color);
 }
 .contacts__box-social {
 	padding: 20px;
 }
 .contacts__box-social a {
-	color: var(--secondary-color);
+	color: var(--dark-color);
 }
 .contacts__map-text{
+	color: var(--main-color);
 	padding: 20px;
 }
 @media (min-width: 576px) {

@@ -1,3 +1,6 @@
+.work-with-us {
+	background-color: var(--secondary-color);
+}
 .work-with-us__box {
 	position: relative;
 	overflow: hidden;
@@ -15,6 +18,7 @@
 
 .work-with-us__boxes {
 	padding-bottom: 10px;
+	text-align: center;
 }
 .work-with-us__box-title {
 	color: var(--main-color);
@@ -22,6 +26,7 @@
 
 .work-with-us__box-text,
 .work-with-us__box-card {
+	color: var(--main-color);
 	font-size: 18px;
 	line-height: 1.8;
 	font-weight: 400;
@@ -56,9 +61,9 @@
 	padding: 20px;
 	margin: 20px;
 	font-size: 50px;
-	width: 300px;
+	width: 315px;
 	height: 150px;
-	border: 1px solid var(--secondary-color);
+	border: 1px solid var(--main-color);
 }
 .work-with-us__item:nth-child(odd) {
 	background-color: var(--main-color);
@@ -93,7 +98,7 @@
 	list-style: none;
 	padding: 20px;
 }
-.work-with-us__box-contact-icons i{
+.work-with-us__box-contact-icons i {
 	font-weight: bolder;
 }
 .work-with-us__box-contact-icon a {
@@ -154,34 +159,5 @@
 		align-items: center;
 		justify-content: center;
 		background-color: var(--main-color);
-	}
-
-	.work-with-us__item {
-		opacity: 0;
-		animation: fadeIn 1s ease forwards;
-	}
-
-	.work-with-us__item:nth-child(1) {
-		animation-delay: 0s;
-	}
-
-	.work-with-us__item:nth-child(2) {
-		animation-delay: 0.5s;
-	}
-
-	.work-with-us__item:nth-child(3) {
-		animation-delay: 1s;
-	}
-
-	.work-with-us__item:nth-child(4) {
-		animation-delay: 1.5s;
-	}
-
-	.work-with-us__item:nth-child(5) {
-		animation-delay: 2s;
-	}
-
-	.work-with-us__item:nth-child(6) {
-		animation-delay: 2.5s;
 	}
 }
