@@ -29,7 +29,9 @@
 .clean-air__description-box {
 	display: flex;
 	flex-direction: column;
+	margin: auto;
 	color: var(--main-color);
+	max-width: 1000px;
 }
 .clean-air__description-box-item {
 	display: flex;
@@ -54,12 +56,15 @@
 	font-weight: 600;
 }
 .clean-air__description-partners {
+	max-width: 1000px;
+	margin: auto;
 	background-color: var(--main-color);
 	padding: 20px;
 }
 
 .clean-air__description-finance {
 	color: var(--main-color);
+	text-align: center;
 }
 .clean-air__list,
 .clean-air__actions-list {

@@ -16,6 +16,7 @@
 .work-with-us__boxes {
 	padding-bottom: 10px;
 	text-align: center;
+	max-width: 1000px;
 }
 .work-with-us__box-title {
 	color: var(--main-color);
