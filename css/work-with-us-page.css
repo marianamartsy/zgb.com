@@ -34,7 +34,7 @@
 .work-with-us__box-text p::first-letter {
 	font-size: 20px;
 	font-weight: 700;
-	color: var(--main-color);
+	color: var(--pure-white-color);
 }
 .work-with-us__box-text p,
 .work-with-us__box-text-right p {
