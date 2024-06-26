@@ -1,4 +1,4 @@
-.aboutus{
+.aboutus {
 	background-color: var(--secondary-color);
 }
 .aboutus__box {
@@ -22,21 +22,22 @@
 	text-transform: uppercase;
 	text-align: center;
 	margin: 13px 0;
-	color: var(--secondary-color);
+	color: var(--pure-white-color);
 }
+.aboutus__text,
 .aboutus__main-text {
 	line-height: 1.6;
+}
+.aboutus__main-text {
 	font-weight: 500;
 	color: var(--main-color);
 }
 .aboutus__text {
 	color: var(--pure-white-color);
-	font-size: 18px;
-	line-height: 1.6;
 	padding-bottom: 15px;
 }
 .animate-appear {
-	animation: appear 1s ease-out forwards;
+	animation: appear 1.7s ease-out forwards;
 }
 @media (min-width: 576px) {
 	.aboutus__box {

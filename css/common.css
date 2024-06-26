@@ -54,7 +54,7 @@ body {
 
 .btn-special-animation:hover,
 .btn-special-animation:focus {
-	background-color: var(--secondary-color);
+	background-color: var(--dark-color);
 	transform: scale(1.1);
 }
 
