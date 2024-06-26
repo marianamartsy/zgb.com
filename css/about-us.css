@@ -1,6 +1,3 @@
-.aboutus {
-	background-color: var(--secondary-color);
-}
 .aboutus__box {
 	top: 200px;
 	display: flex;
@@ -17,6 +14,7 @@
 .aboutus__img {
 	position: relative;
 	border-radius: 7px;
+	z-index: -1;
 }
 .aboutus__title {
 	text-transform: uppercase;

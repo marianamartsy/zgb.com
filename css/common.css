@@ -32,6 +32,7 @@ img {
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
+	background-color: var(--secondary-color);
 }
 
 .section-heading {
