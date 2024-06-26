@@ -25,6 +25,7 @@
 
 .bi-quote {
 	font-size: 60px;
+	color: var(--secondary-color);
 }
 .clean-air__description-box {
 	display: flex;
