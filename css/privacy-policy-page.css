@@ -3,7 +3,6 @@
 	justify-content: center;
 	align-items: center;
 	color: var(--pure-white-color);
-	background-color: var(--secondary-color);
 }
 .privacy-policy__box {
 	font-size: 16px;
