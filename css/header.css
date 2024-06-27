@@ -55,6 +55,7 @@
 	bottom: 0;
 	font-size: 45px;
 	color: var(--main-color);
+	text-shadow: 1px 1px 1px var(--pure-white-color);
 	animation: scale 2s infinite ease-in-out;
 }
 
