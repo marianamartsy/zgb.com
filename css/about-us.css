@@ -24,7 +24,8 @@
 }
 .aboutus__text,
 .aboutus__main-text {
-	line-height: 1.6;
+	font-size: 18px;
+	line-height: 1.4;
 }
 .aboutus__main-text {
 	font-weight: 500;
@@ -60,9 +61,6 @@
 	.aboutus__img {
 		max-height: 300px;
 	}
-	.aboutus__text {
-		font-size: 20px;
-	}
 }
 @media (min-width: 992px) {
 	.aboutus__box {
@@ -73,7 +71,7 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		margin-bottom: 40px;
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.aboutus__img {
 		max-height: 400px;
