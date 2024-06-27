@@ -70,18 +70,22 @@
 	margin-bottom: 25px;
 	padding: 25px;
 	list-style: none;
-	text-transform: uppercase;
 }
 .clean-air__item {
 	background-color: var(--main-color);
 	padding: 10px;
 	margin-bottom: 25px;
+	text-transform: uppercase;
 }
 .clean-air__actions-item {
 	font-size: 20px;
 	padding-top: 30px;
 	font-weight: 600;
 	color: var(--main-color);
+}
+.clean-air__actions-item .bi-check2-square {
+	padding: 0 10px;
+	font-size: 40px;
 }
 
 .clean-air__img {
