@@ -80,7 +80,6 @@
 .clean-air__actions-item {
 	font-size: 20px;
 	padding-top: 30px;
-	font-weight: 600;
 	color: var(--main-color);
 }
 .clean-air__actions-item .bi-check2-square {
@@ -111,6 +110,7 @@
 
 	.clean-air__actions-item {
 		font-size: 25px;
+		font-weight: 600;
 	}
 	.clean-air__quote-box {
 		margin: 0 80px;
