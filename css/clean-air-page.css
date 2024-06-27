@@ -20,7 +20,7 @@
 	background-color: var(--main-color);
 }
 .clean-air__quote-text {
-	padding-bottom: 90px;
+	padding-bottom: 20px;
 }
 
 .bi-quote {
@@ -121,7 +121,7 @@
 		font-size: 90px;
 	}
 	.clean-air__quote-text {
-		padding: 0 90px 90px 90px;
+		padding: 0 50px 50px 50px;
 	}
 	.clean-air__img {
 		margin: auto;
