@@ -26,6 +26,7 @@
 .work-with-us__box-card {
 	color: var(--pure-white-color);
 	font-size: 18px;
+	font-weight: normal;
 	line-height: 1.4;
 }
 .work-with-us__box-text p::first-letter {
