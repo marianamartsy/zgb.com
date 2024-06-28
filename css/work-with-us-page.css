@@ -27,11 +27,10 @@
 	color: var(--pure-white-color);
 	font-size: 18px;
 	line-height: 1.4;
-	font-weight: 400;
 }
 .work-with-us__box-text p::first-letter {
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: bold;
 	color: var(--main-color);
 }
 .work-with-us__box-text p,
