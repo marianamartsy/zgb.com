@@ -89,7 +89,6 @@
 }
 .work-with-us__box-text a {
 	color: var(--main-color);
-	font-weight: bold;
 }
 .work-with-us__box-contact-icons {
 	display: flex;
