@@ -84,7 +84,7 @@
 }
 .clean-air__actions-item .bi-check2-square {
 	padding: 0 10px;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 .clean-air__img {
@@ -127,5 +127,8 @@
 		margin: auto;
 		padding: 30px;
 		width: 400px;
+	}
+	.clean-air__actions-item .bi-check2-square {
+		font-size: 30px;
 	}
 }
