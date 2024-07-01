@@ -10,7 +10,7 @@
 	width: 100%;
 	min-height: 800px;
 	overflow: hidden;
-	background-image: var(	--background-gradient-secondary);
+	background-image: var(--background-gradient-secondary);
 }
 
 .header__title {
