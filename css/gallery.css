@@ -15,7 +15,7 @@
 .gallery__box {
 	position: relative;
 	margin: 20px;
-	padding: 15px;
+	padding: 5px;
 	box-shadow: 3px 3px 10px var(--secondary-color);
 	transition: transorm 0.3s;
 }
