@@ -14,7 +14,7 @@ function handleSubmitForm(e) {
 		message: messageInput.value,
 	}
 
-	fetch('zgb-back-227caenyw-marianamartsys-projects.vercel.app/api/contact', {
+	fetch('https://zgb-back-227caenyw-marianamartsys-projects.vercel.app/api/contact', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json',
