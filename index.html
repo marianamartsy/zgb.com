@@ -252,8 +252,6 @@
                 </div>
             </div>
         </section>
-
-
         <section class="gallery section-padding section" id="gallery">
             <div class="gallery__container">
                 <div class="gallery__boxes">
@@ -290,34 +288,30 @@
         <section class="contact-form section-padding section" id="contact">
             <h2 class="contact-form__heading section-heading">napisz do nas</h2>
             <div class="container">
-                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-                    action="https://formspree.io/f/xwkgzyak" method="post" class="contact__form">
+                <form id="contactForm" name="simple-contact-form" accept-charset="utf-8" class="contact__form">
                     <div class="contact__form-top">
-                        <label for="full-name" class="contact__form-label">Imię i
-                            nazwisko</label>
+                        <label for="full-name" class="contact__form-label">Imię i nazwisko</label>
                         <input type="text" name="name" id="full-name" class="contact__form-input"
-                            placeholder="Imię i nazwisko" required="">
+                            placeholder="Imię i nazwisko" required>
                         <label class="contact__form-label" for="telephone">Numer telefonu</label>
                         <input class="contact__form-input" type="number" name="telephone" id="telephone"
-                            placeholder="555555555" required="">
+                            placeholder="555555555" required>
                         <label for="email-address" class="contact__form-label">Adres e-mail</label>
-                        <input type="email" name="_replyto" class="contact__form-input" id="email-address"
-                            placeholder="email@domain.com" required="">
+                        <input type="email" name="email" class="contact__form-input" id="email-address"
+                            placeholder="email@domain.com" required>
                     </div>
                     <label for="message" class="contact__form-label">Treść wiadomości</label>
-                    <textarea rows="5" name="message" id="message" placeholder="" required=""
+                    <textarea rows="5" name="message" id="message" placeholder="" required
                         class="contact__form-textarea"></textarea>
-                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                     <div class="contact__form-checkbox">
-                        <input type="checkbox" name="consent" id="consent" required="">
-                        <label required="" for="consent">Wyrażam zgodę na przetwarzanie moich danych osobowych
+                        <input type="checkbox" name="consent" id="consent" required>
+                        <label required for="consent">Wyrażam zgodę na przetwarzanie moich danych osobowych
                             w celu i w zakresie niezbędnym do realizacji obsługi wiadomości wysłanej w
                             powyższym
                             formularzu kontaktowym. Oświadczam, że zapoznałem się ze sposobem przetwarzania moich
                             danych
                             osobowych przedstawionym w <a href="privacy-policy.html"
-                                class="footer__privacy-policy">Polityce prywatności.</a>
-                        </label>
+                                class="footer__privacy-policy">Polityce prywatności.</a></label>
                     </div>
                     <input type="submit" class="contact__form-btn btn-special-animation" value="Wyślij">
                 </form>
@@ -373,13 +367,15 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <script src="js/nav.js"></script>
-    <script src="js/gallery.js"></script>
-    <script src="js/footer-year.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="js/privacy-message.js"></script>
     <script src="js/about-us-scroll.js"></script>
     <script src="js/all-offers.js"></script>
-    <script src="js/parallax.js"></script>
+    <script src="js/gallery.js" defer></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/footer-year.js" defer></script>
 
 </body>
 
